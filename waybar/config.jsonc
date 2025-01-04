@@ -1,0 +1,34 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+// ### DEFAULT Top -Laptop ### //
+{
+  "include": "~/.config/waybar/modules",
+  "layer": "top",
+  "exclusive": true,
+  "position": "top",
+  "ipc": true,
+  "width": 2000,
+  "margin-top": 8,
+  "margin-left": 8,
+  "margin-right": 8,
+  "modules-left": [
+    "hyprland/workspaces",
+    "cpu",
+    "temperature",
+    "memory",
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "custom/menu",
+    "clock",
+    "mpris",
+    "custom/lock"
+  ],
+  "modules-right": [
+    "bluetooth",
+    "keyboard-state",
+    "pulseaudio",
+    "pulseaudio#microphone",
+    "network",
+    "custom/power"
+  ],
+}
